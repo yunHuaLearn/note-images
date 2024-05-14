@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta property="qc:admins" content="10412210363307246455536367" />
+    <meta name="google-site-verification" content="_q2v0W-RqQOMxBr3X3JXBTBmwupe47Vu8mkb_ZDp6sk" />
+    <meta name="searchtitle" content="团队云OA办公协作">
+    <meta name="author" content="团队云办公协作,http://www.eteams.cn">
+    <meta name="copyright" content="本页版权归泛微eteams团队协作所有.All Rights Reserved">
+    <meta name="title" content="OA">
+    <meta name="keywords" content="云OA,任务协作,团队管理,企业网盘,OA,企业协作,企业社交,任务管理,团队协作,工作汇报,工作日志,云办公,云协作,企业微博,企业微信,移动OA,移动办公,CRM,审批流程,知识分享,移动考勤,云计算,工作微博,SAAS">
+    <meta name="description" content="eteams系高端OA领导厂商泛微研发，致力于为中小企业或团队用户提供专业化的云办公协作平台；以工作事项及成果为目标、以人员为核心，提供工作日报、任务协作、云OA、移动OA、客户管理、文档分享、审批流程、企业微信、团队管理等为一体化的工作平台及相应的解决方案。并同时支持PC端网页版，iPhone、Android移动客户端应用。">
+    <meta name="robots" content="index,follow">
+    <meta name="application-name" content="eteams.cn">
+    <script type="text/javascript">
+        window.passport_lang = "cn";
+        window.runMode = "txproduction";
+    </script>
+        <script type="text/javascript" src="/static/js/i18n/zh_CN.js"></script>
+        <script type="text/javascript" src="/static/js/i18n/i18nUtil.js"></script>
+    <script type="text/javascript" src="https://static.eteams.cn/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/plugins/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://resource.eteams.cn/static/behavior/public/js/behavior.min.js"></script>
+    <title>泛微移动办公云OA(eteams)：一体化的团队协作移动云办公平台--登录</title>
+<link type="text/css" rel="stylesheet" href="/static/css/passport.font.css" />
+<link type="text/css" rel="stylesheet" href="/static/css/login.css" />
+<link type="text/css" rel="stylesheet" href="/static/css/scan.css?v=1.0" />
+</head>
+<body  e-lang="cn" third-party="txproduction">
+<header>
+	
+
+
+<!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+<header class="navbar">
+	<div class="g-990">
+		<figure class="navbar-header">
+			<a href="http://www.eteams.cn" class="navbar-brand"><img id="passportLogo" width="100" height="33"; alt="eteams" src="?"></a>
+		</figure>
+		<div class="navbar-login">
+			<span class="btn-link navbar-tel hidden-xs hidden-sm">
+				服务：
+				<span class="qq-group-link hide"><a class="qq_Url" href="http://jq.qq.com/?_wv=1027&k=24sGyfN" rel="noopener noreferrer" target="_blank">QQ群</a>
+					<div class="top-dropbox text-center">
+						<label>官方群</label>
+						<p class="qq_Num">196945930</p>
+						<a class="btn btn-primary js_btn_openQQ qq_Url" data-userActionId="navigation_001001000_0001000" href="http://jq.qq.com/?_wv=1027&k=24sGyfN" rel="noopener noreferrer" target="_blank">加入</a>
+					</div>
+				</span>
+				<span href="#" class="qrcode-num-link">微信号
+					<div class="top-dropbox text-center">
+						<label>微信号</label>
+						<p>扫描二维码关注我们</p>
+						<img src="https://www.eteams.cn/static/images/login/eteams_wechat.jpg"/>
+					</div>
+				</span><br/>
+				021-50388680
+			</span>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="http://www.eteams.cn">首页</a></li>
+				<li><a href="http://www.eteams.cn/product">产品</a></li>
+				<li><a href="http://www.eteams.cn/mobile">移动</a></li>
+				<li><a href="http://www.eteams.cn/cooperation">合作</a></li>
+				<li><a href="http://www.eteams.cn/blog">博客</a></li>
+				<li><a href="http://www.eteams.cn/help">帮助</a></li>
+			</ul>
+		</nav>
+	</div>
+	<script  type="text/javascript">
+		var passsportUrl ='null';
+		if(passsportUrl == null || passsportUrl == "" || passsportUrl == "null"){
+			passsportUrl = "/static/img/global/eteams_logo_2x.png";
+		}
+		document.getElementById('passportLogo').src = passsportUrl;
+	</script>
+</script>
+</header>
+</header>
+
+<section class="login-container">
+
+	<div class="login-panel" id="login-wrapper" >
+		
+<div class="login-scan-btn"></div>
+<div class="login-scan-overlay">
+	<div class="login-scan-wrap">
+		<div class="scan-caption">
+			<h3>扫码登录</h3>
+			<p>请使用eteams移动端扫码登录</p>
+		</div>
+		<div class="scan-qrcode">
+			<div class="qrcode-img"></div>
+			<div class="qrcode-overlay">
+				<p class="ico"><i class="icon-spinner"></i></p>
+				<p class="txt">请刷新二维码</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="/static/js/passport/jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="/static/js/passport/scan.js"></script><div class="">
+			<div class="login-header">
+				<h1 class="j_preview_cusName">用户登录</h1>
+				<div class="langsetting" >
+					<a class="langsetdown-toggle j_langTitle">简</a>
+					<ul id="langList" class="langset-menu">
+						<li class="j_langChange" type="cn"><a>简</a></li>
+						<li class="j_langChange" type="zh-TW"><a>繁</a></li>
+						<li class="j_langChange" type="en"><a>EN</a></li>
+					</ul>
+				</div>
+			</div>
+			<form id="loginForm" action="/login" class="ui-form" method="post">
+				<div class="error"></div>
+				<input type="hidden" name="lt" value="LT-34925241-X6f1c55KYR0YVwCxnNZcB2wKxjvPdR-https://www.eteams.cn" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="j_pcClient" id="j_pcClient" value="" />
+				<input type="hidden" name="_eventId" value="submit" />
+				<input type="hidden" name="isApplyed" value="false" />
+				<input type="hidden" name="registerSourceUrl" value="" />
+				<input type="hidden" name="registerSource" value="" />
+				<input type="hidden" name="registerDataSource" value="" />
+				<div class="ui-form-item">
+					<label class="ui-label" for="username">帐 号:</label>
+					<input class="ui-input" type="text" id="username" name = "username" value="" placeholder="请输入您注册的邮箱或手机号" />
+					</div>
+				<div class="ui-form-item">
+					<label class="ui-label" for="password">密 码:</label>
+					<input class="ui-input" type="password" id="password" name = "password" placeholder="请输入密码" />
+				</div>
+
+				<!--
+				<div class="fbox captcha">
+					<label for="captcha">验 证 码：</label>
+					<input type="text" id="captcha" name="captcha" maxlength="4" />
+					<img id="captchaImg" src="/static/captcha.jspx" alt="captcha" />
+				</div>
+				 -->
+				<div class="login-links clearfix">
+					<div class="autologin">
+						<input id="j_autoLogin" data-userActionId="login_001000200_0000200" class="ui-checkbox" type="checkbox" name="rememberMe" value="true"/>
+						<span><label for="j_autoLogin">自动登录</label></span>
+					</div>
+					<div class="links j_signLinkSwitch">
+						<a class="fetion__hide" href="/password" data-userActionId="login_001000500_0000500">忘记密码？</a>
+						<a class="fetion__hide" href="/signup" data-userActionId="login_001000300_0000300">注册</a>
+					</div>
+				</div>
+				<div class="login-btn">
+					<button type="submit" class="btn" data-userActionId="login_001000100_0000100">登 录</button>
+				</div>
+				<div class="login-other j_thirdLoginSwitch">
+					<div class="caption">使用第三方账号登录</div>
+					<div class="other-icons">
+						<div class="icon-item">
+							<a href="/qqLogin.do" class="qq" data-userActionId="login_001000600_0000600"></a>
+							</div>
+						<div class="icon-item">
+							<a href="/weiboLogin.do" class="weibo" data-userActionId="login_001000800_0000800"></a>
+							</div>
+						<div class="icon-item">
+							<a href="/wechatLogin.do" class="wechat" data-userActionId="login_001000700_0000700"></a>
+							</div>
+						<div class="icon-item">
+							<a href="/wechatEnterpriseLogin.do" class="enterprise" data-userActionId="login_001000900_0000900"></a>
+							</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		</div>
+</section>
+
+<footer class="j_copyrightSwitch">
+	<div class="copyright">
+		Copyright © 2001-2021 Weaver Network All Rights Reserved. <a rel="noopener noreferrer" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202007203">沪ICP备31011202007203号</a>
+	</div>
+</footer>
+<script type="text/javascript" src="/static/js/passport/footer.js"></script>
+</body>
+</html><script type="text/javascript" src="https://resource.eteams.cn/static/behavior/public/js/behavior.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //进入登录
+            $.userBehavior.send({
+                'action_id':'login_001000100_0000099'
+            });
+            //判定js方法是否存在，确定是PC客户端还是其他
+//             if(/electron/i.test(navigator.userAgent)){
+//                 console.log('{ "webType" : "sessionExpired"}');
+//             }
+            if(window.IsEteamsClient && typeof(window.IsEteamsClient) == "function"){
+                if(window.IsEteamsClient() == 1){
+                    if(window.NeedKeepPsw()){
+                        $('#j_rememberPwd').attr('checked',true);
+                    }else{
+                        $('#j_rememberPwd').attr('checked',false);
+                    }
+                    $('#j_pcClient').val("pc_client");
+                } else if(window.IsEteamsClient() == 2){
+                    if(window.NeedKeepPsw()){
+                        $('#j_rememberPwd').attr('checked',true);
+                    }else{
+                        $('#j_rememberPwd').attr('checked',false);
+                    }
+                    $('#j_pcClient').val("mac_client");
+                }
+            }else{
+                $('#j_rememberPwd').addClass("hide");
+                $('.j_rememberPwd').addClass("hide");
+            }
+            $('#loginForm').find(':input').each(function(){
+                var el = $(this);
+                if(el.attr('id')&& !el.val()){
+                    el.focus();
+                    return false;
+                }
+            });
+            $('#loginForm').submit(function(){
+                var  filter = /^([A-Za-z0-9_\.-]+)@([\dA-Za-z\.-]+)\.([A-Za-z\.]{2,64})$/;
+                var  username = $.trim($("#loginForm").find("#username").val());
+                var  password = $.trim($("#loginForm").find("#password").val());
+                if(username==""&&password==""){
+                    $("#loginForm").find(".error").html("账号和密码均不能为空");
+                    $("#loginForm").find("#username");
+                    return false;
+                }
+                if(username==""){
+                    $("#loginForm").find(".error").html("账号不能为空");
+                    $("#loginForm").find("#username");
+                    return false;
+                }
+                if(password==""){
+                    $("#loginForm").find(".error").html("密码不能为空");
+                    $("#loginForm").find("#password");
+                    return false;
+                }
+                if(username.indexOf('@') >=0){
+                    if(!filter.test(username)){
+                        $("#loginForm").find(".error").html("邮箱格式不正确");
+                        $("#loginForm").find("#username");
+                        return false;
+                    }
+                }
+                $(':submit').attr('disabled',true);
+                return true;
+            });
+            $('.qrcode-num').hover(function(){
+                    $('.wechat-qrcode').show('fast');
+                },
+                function(){
+                    $('.wechat-qrcode').hide('fast');
+                }).click(function(){
+                return false;
+            });
+        });
+
+        function rememberPwdChange(obj){
+            if (obj.checked == false) {
+                window.SetKeepPsw(false);
+            } else {
+                window.SetKeepPsw(true);
+            }
+        };
+    </script>
+    <script type="text/javascript" src="https://passport.eteams.cn/static/js/qq.js"></script>
+    <script type="text/javascript">
+        //百度统计
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F41555f1291b274a5e1d99199f20e9eab' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</html>
